@@ -1,0 +1,10 @@
+# OS & Editor
+.DS_Store
+.agents/
+
+# Dependencies & Build Artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*

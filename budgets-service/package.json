@@ -1,0 +1,15 @@
+{
+  "name": "@centavo/budgets-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Servicio de definición y consulta de presupuestos por categoría para Centavo",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --experimental-strip-types src/index.ts",
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "node --test --experimental-strip-types src/__tests__/budgets.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
